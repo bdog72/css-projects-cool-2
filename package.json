@@ -1,0 +1,24 @@
+{
+  "name": "trillo-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdog72/css-projects-cool-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdog72/css-projects-cool-2/issues"
+  },
+  "homepage": "https://github.com/bdog72/css-projects-cool-2#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
