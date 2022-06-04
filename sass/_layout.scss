@@ -1,7 +1,7 @@
 //
 //
 
-@import '_base.scss';
+@import '_base';
 
 .container {
   // padding: 0 2rem;
@@ -13,9 +13,14 @@
 }
 
 .header {
+  font-size: 14px;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -24,7 +29,7 @@
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
-
+  // color: var(--);
   flex: 0 0 18%;
 }
 
